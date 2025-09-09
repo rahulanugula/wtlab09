@@ -1,0 +1,25 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookstore SYSTEM "books.dtd">
+<bookstore>
+  <book id="bk101" category="Programming">
+    <title>Clean Code</title>
+    <author>
+      <firstName>Robert</firstName>
+      <lastName>Martin</lastName>
+    </author>
+    <price currency="INR">799</price>
+    <year>2008</year>
+    <publisher>Prentice Hall</publisher>
+  </book>
+  <book id="bk102" category="CS">
+    <title>Introduction to Algorithms</title>
+    <author>
+      <firstName>Thomas</firstName>
+      <lastName>Cormen</lastName>
+    </author>
+    <price currency="INR">1499</price>
+    <year>2009</year>
+    <publisher>MIT Press</publisher>
+  </book>
+</bookstore>

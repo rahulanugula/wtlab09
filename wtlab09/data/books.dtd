@@ -1,0 +1,15 @@
+
+<!ELEMENT bookstore (book+)>
+<!ELEMENT book (title, author, price, year, publisher)>
+<!ATTLIST book id ID #REQUIRED category CDATA #IMPLIED>
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (firstName, lastName)>
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT lastName (#PCDATA)>
+
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST price currency CDATA #IMPLIED>
+
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
